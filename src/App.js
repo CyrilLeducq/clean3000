@@ -9,9 +9,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/new-client" element={<NewClientForm />} />
-        <Route path="/new-passage" element={<NewPassageForm />} />
-        <Route path="/search-passage" element={<SearchPassage />} />
+        <Route path="/nouveau-client" element={<NewClientForm />} />
+        <Route path="/nouvel-avis" element={<NewPassageForm />} />
+        <Route path="/recherche-avis" element={<SearchPassage />} />
       </Routes>
     </Router>
   );

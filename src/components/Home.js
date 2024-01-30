@@ -11,17 +11,17 @@ function Home() {
                 
               />
       <div>
-        <Link to="/new-client">
+        <Link to="/nouveau-client">
           <button className="home-button blue-button">Créer un nouveau client</button>
         </Link>
       </div>
       <div>
-        <Link to="/new-passage">
+        <Link to="/nouvel-avis">
           <button className="home-button green-button">Saisir un nouvel avis de passage</button>
         </Link>
       </div>
       <div>
-        <Link to="/search-passage">
+        <Link to="/recherche-avis">
           <button className="home-button orange-button">Recherche d'un avis de passage</button>
         </Link>
       </div>
