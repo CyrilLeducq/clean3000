@@ -22,7 +22,6 @@ function NewClientForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Validation des champs requis
     if (!clientData.name || !clientData.address || !clientData.email) {
       alert('Veuillez remplir tous les champs.');
       return;
@@ -38,9 +37,7 @@ function NewClientForm() {
 
     setConfirmationMessage('Le client a été ajouté avec succès !');
 
-    setTimeout(() => {
-      window.location.href = '/';
-    }, 2000);
+
   };
 
   return (
